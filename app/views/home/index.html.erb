@@ -2,5 +2,7 @@
 <h3>You are signed in</h3>
 <% else %>
 <h3>You are not Signed in</h3>
+<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+<%= link_to "Login", new_user_session_path, class: "btn btn-outline-primary btn-lg" %>
 <% end %>
 ```
